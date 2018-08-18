@@ -1,0 +1,33 @@
+{
+  "name": "msg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "test": "mocha --full-trace -w test",
+    "postinstall": "webpack"
+  },
+  "author": "Kausar Khizra",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "jquery": "^3.1.1",
+    "mysql": "^2.15.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "request": "^2.81.0",
+    "sequelize": "^3.33.0"
+  }
+}
